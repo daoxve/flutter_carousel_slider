@@ -124,8 +124,11 @@ class CarouselOptions {
   /// Exposed clipBehavior of PageView
   final Clip clipBehavior;
 
+  final double scalePreference;
+
   CarouselOptions({
     this.height,
+    this.scalePreference = 1,
     this.aspectRatio: 16 / 9,
     this.viewportFraction: 0.8,
     this.initialPage: 0,
