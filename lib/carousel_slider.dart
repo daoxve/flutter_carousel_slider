@@ -234,7 +234,7 @@ class CarouselSliderState extends State<CarouselSlider>
       return SizedBox(child: child, width: width, height: height);
     }
     return Transform.scale(
-        scale: scale!,
+        scale: scale! + 1.19,
         child: Container(child: child, width: width, height: height));
   }
 
